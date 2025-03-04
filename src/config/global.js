@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Diferencial de deslizamiento limitado y diagnóstico de fallas',
+    Description:
+      'El componente formativo aborda el diferencial de deslizamiento limitado (LSD), explicando su funcionamiento con embragues y engranajes, incluyendo los tipos helicoidales y torsen. Además, presenta un proceso de diagnóstico de fallas, que incluye escuchar al cliente, investigar, realizar pruebas e informar resultados. Se enfatiza en mejorar la tracción y estabilidad vehicular en superficies resbaladizas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,35 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Transmisión',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Desacople de la transmisión',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Desarmado de componentes',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Limpieza e inspección de los componentes',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Reemplazo de partes desgastadas o dañadas',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Ensamble de componentes',
+            hash: 't_1_5',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,21 +114,111 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Transmisión',
+      referencia:
+        'Lesics Española. (2020). Transmisión automática, ¿cómo funciona?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=sF84T7jz7yE',
+    },
+    {
+      tema: 'Desacople de la transmisión',
+      referencia:
+        'KyD Galat. (2021). Como desmontar transmisión de camioneta, para cambiar clutch, retenes, collarín etc. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ZRiNtp1-MqI',
+    },
+    {
+      tema: 'Desarmado de componentes',
+      referencia:
+        'servicio automotriz El Pistón. (2024). Hyundai atos desarme e inspección de transmission (caja de velocidades ) [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=cobCWVpSCSA',
+    },
+    {
+      tema: 'Reemplazo de partes desgastadas o dañadas',
+      referencia:
+        'Garage del Negro. (2023).Caja Manual RASCA al CAMBIAR de MARCHA o CAMBIO. Sincronizadores desgastados, como probarlos?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vMZuYitTmm4',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Diagnóstico',
+      significado:
+        'identificación de fallos mediante inspección, pruebas y análisis.',
+    },
+    {
+      termino: 'Eje de entrada',
+      significado:
+        'conecta el motor al embrague y transmite movimiento a la transmisión.',
+    },
+    {
+      termino: 'Eje de salida',
+      significado:
+        'transfiere el movimiento de la transmisión hacia las ruedas del vehículo.',
+    },
+    {
+      termino: 'Eje intermediario',
+      significado:
+        'engrana siempre con el eje primario en el sistema de transmisión.',
+    },
+    {
+      termino: 'Embrague',
+      significado:
+        'mecanismo que conecta o separa el motor de la transmisión para cambios de marcha.',
+    },
+    {
+      termino: 'Engranar',
+      significado: 'unión de ruedas dentadas para transmitir movimiento.',
+    },
+    {
+      termino: 'Mantenimiento',
+      significado:
+        'acciones para preservar o restaurar componentes y prolongar su funcionalidad.',
+    },
+    {
+      termino: 'Par motor',
+      significado:
+        'relación entre la potencia y la velocidad del motor, reflejada en la fuerza rotacional.',
+    },
+    {
+      termino: 'Piñón',
+      significado:
+        'rueda dentada que engrana con otra rueda o cadena en el sistema.',
+    },
+    {
+      termino: 'Relación de transmisión',
+      significado:
+        'relación entre las velocidades de dos engranajes en movimiento.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Chevrolet (1999). Despiece Caja de cambios – vehículos con motor.',
+      link: '',
+    },
+    {
+      referencia:
+        'Eaton (2012). <em>Guía de diagnóstico de fallas transmisiones Fuller para servicio pesado TRTS0910S.</em> ',
+      link:
+        'http://www.roadranger.com/ecm/groups/public/@pub/@eaton/@roadranger/documents/content/trts0910s.pdf',
+    },
+    {
+      referencia:
+        'Herrmann & Kraemer (1998). <em>Caja de cambios manual, Sección 308-03, modelo: Fiesta.</em> Ford Motor Company.',
+      link: '',
+    },
+    {
+      referencia:
+        'Salazar, W. (2015). <em>Proyecto de grado: Reparación total de la caja de cambios mecánica de un automóvil Volkswagen Parati Station Wagon año: 1999.</em>  ',
+      link:
+        'https://www.dspace.espol.edu.ec/bitstream/123456789/29595/1/TESIS%20LISTA%20PARA%20IMPRIMIR%20Y%20EMPASTAR.pdf',
+    },
+    {
+      referencia:
+        'US Navy (2018). <em>Construction mechanic advanced NAVEDTRA 14050A, capítulo 8 troubleshooting transmissions, transfer cases, and differentials.</em>',
       link: '',
     },
   ],
@@ -125,14 +227,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermudez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +242,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Edwin Abello Rubiano',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Gestión de Mercados Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora Instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,34 +259,69 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrés Felipe Herrera Roldán',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Cielo Damaris Angulo Rodriguez',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
