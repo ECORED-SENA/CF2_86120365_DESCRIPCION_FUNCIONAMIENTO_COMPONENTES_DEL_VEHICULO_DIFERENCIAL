@@ -268,7 +268,7 @@ export default {
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Cielo Damaris Angulo Rodriguez',
+          nombre: 'Leyson Fabian Castaño Perez',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
