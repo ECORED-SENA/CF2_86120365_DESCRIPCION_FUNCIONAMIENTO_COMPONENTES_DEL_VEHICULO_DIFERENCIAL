@@ -57,7 +57,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/3.png', alt='Chasis de un vehículo con las ruedas sobre una superficie resbaladiza, representada en azul, ilustrando el posible deslizamiento debido a la pérdida de tracción.', style="max-width: 820px;", data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/3.png', alt='Diagrama del diferencial de deslizamiento limitado, destacando discos dentados, satélites, planetarios y semiejes.', style="max-width: 820px;", data-aos="zoom-in")
 
       .col-lg-7
         .bg-color-9.p-5

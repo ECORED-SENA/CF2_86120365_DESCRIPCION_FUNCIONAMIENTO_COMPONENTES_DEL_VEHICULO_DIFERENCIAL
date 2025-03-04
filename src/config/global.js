@@ -36,33 +36,36 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Transmisión',
+        titulo: 'Diferencial de deslizamiento limitado (LSD)',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Desacople de la transmisión',
+            titulo: 'Diferencial con embragues',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Desarmado de componentes',
+            titulo: 'Diferencial con engranajes',
             hash: 't_1_2',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema2',
+        numero: '2',
+        titulo: 'Diagnóstico inicial de fallas',
+        desarrolloContenidos: true,
+        subMenu: [
           {
-            numero: '1.3',
-            titulo: 'Limpieza e inspección de los componentes',
-            hash: 't_1_3',
+            numero: '1.1',
+            titulo: 'Diferencial con embragues',
+            hash: 't_1_1',
           },
           {
-            numero: '1.4',
-            titulo: 'Reemplazo de partes desgastadas o dañadas',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Ensamble de componentes',
-            hash: 't_1_5',
+            numero: '1.2',
+            titulo: 'Diferencial con engranajes',
+            hash: 't_1_2',
           },
         ],
       },

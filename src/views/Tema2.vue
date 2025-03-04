@@ -5,7 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Diagnóstico inicial de fallas
+
+    p(data-aos="fade-up").mb-5 Existen estrategias para hacer del diagnóstico un proceso más preciso. En la práctica, un proceso lógico y sistemático, por lo general brinda muy buenos resultados.
 
 </template>
 
