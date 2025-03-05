@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Diferencial de deslizamiento limitado y diagnóstico de fallas'
