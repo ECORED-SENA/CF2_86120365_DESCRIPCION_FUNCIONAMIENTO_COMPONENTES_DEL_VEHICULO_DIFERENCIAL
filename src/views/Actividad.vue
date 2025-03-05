@@ -25,18 +25,21 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la función principal del diferencial de deslizamiento limitado (LSD)?',
+          texto:
+            '¿Cuál es la función principal del diferencial de deslizamiento limitado (LSD)?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Permitir que las ruedas giren a la misma velocidad sin importar el terreno.',
+              texto:
+                'Permitir que las ruedas giren a la misma velocidad sin importar el terreno.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Distribuir el torque de manera eficiente entre las ruedas motrices.',
+              texto:
+                'Distribuir el torque de manera eficiente entre las ruedas motrices.',
               esCorrecta: true,
             },
             {
@@ -55,7 +58,8 @@ export default {
         },
         {
           id: 2,
-          texto: '¿Cuál es la principal desventaja de un diferencial convencional en superficies resbaladizas?',
+          texto:
+            '¿Cuál es la principal desventaja de un diferencial convencional en superficies resbaladizas?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -66,12 +70,14 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Hace que una rueda patine mientras la otra no recibe tracción.',
+              texto:
+                'Hace que una rueda patine mientras la otra no recibe tracción.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'No permite que las ruedas giren a diferentes velocidades.',
+              texto:
+                'No permite que las ruedas giren a diferentes velocidades.',
               esCorrecta: false,
             },
             {
@@ -85,7 +91,8 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Cuál de los siguientes NO es un tipo de diferencial de deslizamiento limitado?',
+          texto:
+            '¿Cuál de los siguientes NO es un tipo de diferencial de deslizamiento limitado?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -126,7 +133,8 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Emplea discos de fricción que limitan el deslizamiento de las ruedas.',
+              texto:
+                'Emplea discos de fricción que limitan el deslizamiento de las ruedas.',
               esCorrecta: true,
             },
             {
@@ -136,7 +144,8 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Utiliza engranajes helicoidales para bloquear el diferencial.',
+              texto:
+                'Utiliza engranajes helicoidales para bloquear el diferencial.',
               esCorrecta: false,
             },
           ],
@@ -156,12 +165,14 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Usa un sistema de aire comprimido para mejorar la tracción.',
+              texto:
+                'Usa un sistema de aire comprimido para mejorar la tracción.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Transfiere el torque de la rueda con menor adherencia a la de mayor tracción.',
+              texto:
+                'Transfiere el torque de la rueda con menor adherencia a la de mayor tracción.',
               esCorrecta: true,
             },
             {
@@ -175,18 +186,21 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Cuál es el primer paso en el diagnóstico de fallas del diferencial LSD?',
+          texto:
+            '¿Cuál es el primer paso en el diagnóstico de fallas del diferencial LSD?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Escuchar al cliente y recopilar información sobre los síntomas del vehículo.',
+              texto:
+                'Escuchar al cliente y recopilar información sobre los síntomas del vehículo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Cambiar el aceite del diferencial para descartar problemas.',
+              texto:
+                'Cambiar el aceite del diferencial para descartar problemas.',
               esCorrecta: false,
             },
             {
@@ -205,7 +219,8 @@ export default {
         },
         {
           id: 7,
-          texto: '¿Qué tipo de engranajes se utilizan en los diferenciales LSD helicoidales?',
+          texto:
+            '¿Qué tipo de engranajes se utilizan en los diferenciales LSD helicoidales?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -235,7 +250,8 @@ export default {
         },
         {
           id: 8,
-          texto: '¿Qué acción toma el técnico después de realizar las pruebas de diagnóstico?',
+          texto:
+            '¿Qué acción toma el técnico después de realizar las pruebas de diagnóstico?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -246,17 +262,20 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Informar al cliente sobre el resultado del diagnóstico y las reparaciones necesarias.',
+              texto:
+                'Informar al cliente sobre el resultado del diagnóstico y las reparaciones necesarias.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar el diferencial sin consultar con el propietario del vehículo.',
+              texto:
+                'Ajustar el diferencial sin consultar con el propietario del vehículo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Aplicar lubricante para mejorar la tracción del diferencial.',
+              texto:
+                'Aplicar lubricante para mejorar la tracción del diferencial.',
               esCorrecta: false,
             },
           ],
@@ -265,7 +284,8 @@ export default {
         },
         {
           id: 9,
-          texto: '¿Cuál es la principal ventaja del diferencial LSD en comparación con un diferencial abierto?',
+          texto:
+            '¿Cuál es la principal ventaja del diferencial LSD en comparación con un diferencial abierto?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -286,7 +306,8 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Permite que las ruedas giren siempre a la misma velocidad.',
+              texto:
+                'Permite que las ruedas giren siempre a la misma velocidad.',
               esCorrecta: false,
             },
           ],
@@ -295,7 +316,8 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Qué sucede cuando un engranaje helicoidal intenta mover un engranaje sin fin en un diferencial torsen?',
+          texto:
+            '¿Qué sucede cuando un engranaje helicoidal intenta mover un engranaje sin fin en un diferencial torsen?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -316,7 +338,8 @@ export default {
             },
             {
               id: 'd',
-              texto: 'El sistema se bloquea y transfiere el torque a la rueda con mayor adherencia.',
+              texto:
+                'El sistema se bloquea y transfiere el torque a la rueda con mayor adherencia.',
               esCorrecta: true,
             },
           ],
@@ -325,7 +348,8 @@ export default {
         },
         {
           id: 11,
-          texto: 'En un diferencial LSD con embragues, los discos de fricción permiten limitar el movimiento del diferencial.',
+          texto:
+            'En un diferencial LSD con embragues, los discos de fricción permiten limitar el movimiento del diferencial.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -345,7 +369,8 @@ export default {
         },
         {
           id: 12,
-          texto: 'Un diferencial LSD torsen no puede transferir torque entre las ruedas.',
+          texto:
+            'Un diferencial LSD torsen no puede transferir torque entre las ruedas.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -365,7 +390,8 @@ export default {
         },
         {
           id: 13,
-          texto: 'El diagnóstico de fallas en el diferencial LSD incluye inspección visual, pruebas y recopilación de información del cliente.',
+          texto:
+            'El diagnóstico de fallas en el diferencial LSD incluye inspección visual, pruebas y recopilación de información del cliente.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -385,7 +411,8 @@ export default {
         },
         {
           id: 14,
-          texto: 'Los engranajes helicoidales en un diferencial LSD funcionan mejor en terrenos secos y con buena tracción.',
+          texto:
+            'Los engranajes helicoidales en un diferencial LSD funcionan mejor en terrenos secos y con buena tracción.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -405,7 +432,8 @@ export default {
         },
         {
           id: 15,
-          texto: 'Uno de los pasos en el diagnóstico de fallas es consultar los manuales del fabricante para conocer los parámetros de funcionamiento estándar.',
+          texto:
+            'Uno de los pasos en el diagnóstico de fallas es consultar los manuales del fabricante para conocer los parámetros de funcionamiento estándar.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

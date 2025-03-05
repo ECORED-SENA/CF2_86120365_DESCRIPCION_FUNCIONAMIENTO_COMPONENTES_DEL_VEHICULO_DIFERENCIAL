@@ -56,18 +56,6 @@ export default {
         numero: '2',
         titulo: 'Diagnóstico inicial de fallas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Diferencial con embragues',
-            hash: 't_1_1',
-          },
-          {
-            numero: '1.2',
-            titulo: 'Diferencial con engranajes',
-            hash: 't_1_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -117,111 +105,100 @@ export default {
   },
   complementario: [
     {
-      tema: 'Transmisión',
+      tema: 'Diferencial de deslizamiento limitado (LSD)',
       referencia:
-        'Lesics Española. (2020). Transmisión automática, ¿cómo funciona?. [Archivo de video] Youtube.',
+        'Mentalidad De Ingeniería. (2022). LIMITADO DESLIZAR DIFERENCIAL. [Archivo de video] Youtube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=sF84T7jz7yE',
+      link:
+        'https://www.youtube.com/watch?v=qy9yFqed0FQ&ab_channel=MentalidadDeIngenier%C3%ADa',
     },
     {
-      tema: 'Desacople de la transmisión',
-      referencia:
-        'KyD Galat. (2021). Como desmontar transmisión de camioneta, para cambiar clutch, retenes, collarín etc. [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=ZRiNtp1-MqI',
+      tema: 'Diferencial con embragues',
+      referencia: 'UGEARS. (s.f.). Maqueta mecánica diferencial.',
+      tipo: 'Documento',
+      link:
+        'https://ugearsmodels.com/image/pocket_study_guide/Differential-Pocket-Study-Guide-Ugears-STEM-lab-es.pdf?srslid=AfmBOopHyXAxhrpO2pZ83HEKROLq54_AdQKmlOO4GjCqgsNBQZtzGQK9',
     },
     {
-      tema: 'Desarmado de componentes',
+      tema: 'Diferencial con engranajes',
       referencia:
-        'servicio automotriz El Pistón. (2024). Hyundai atos desarme e inspección de transmission (caja de velocidades ) [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=cobCWVpSCSA',
-    },
-    {
-      tema: 'Reemplazo de partes desgastadas o dañadas',
-      referencia:
-        'Garage del Negro. (2023).Caja Manual RASCA al CAMBIAR de MARCHA o CAMBIO. Sincronizadores desgastados, como probarlos?. [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=vMZuYitTmm4',
+        'La Catarina – UDLAP. (). Aplicación de engranes cónicos en el sistema de potencia.',
+      tipo: 'Documento',
+      link:
+        'https://catarina.udlap.mx/u_dl_a/tales/documentos/lim/ramirez_j_m/capitulo5.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Diagnóstico',
+      termino: 'Bloqueo del diferencial',
       significado:
-        'identificación de fallos mediante inspección, pruebas y análisis.',
+        'mecanismo que impide que una rueda gire libremente, mejorando la tracción en terrenos difíciles.',
     },
     {
-      termino: 'Eje de entrada',
+      termino: 'Diferencial de deslizamiento limitado (LSD)',
       significado:
-        'conecta el motor al embrague y transmite movimiento a la transmisión.',
+        'mecanismo que distribuye el torque entre las ruedas motrices para mejorar la tracción en superficies resbaladizas.',
     },
     {
-      termino: 'Eje de salida',
+      termino: 'Diferencial torsen',
       significado:
-        'transfiere el movimiento de la transmisión hacia las ruedas del vehículo.',
-    },
-    {
-      termino: 'Eje intermediario',
-      significado:
-        'engrana siempre con el eje primario en el sistema de transmisión.',
+        'sistema que usa engranajes sin fin y helicoidales para transferir torque a la rueda con mayor tracción.',
     },
     {
       termino: 'Embrague',
       significado:
-        'mecanismo que conecta o separa el motor de la transmisión para cambios de marcha.',
+        'conjunto de discos que permiten limitar el deslizamiento de las ruedas en diferenciales LSD.',
     },
     {
-      termino: 'Engranar',
-      significado: 'unión de ruedas dentadas para transmitir movimiento.',
-    },
-    {
-      termino: 'Mantenimiento',
+      termino: 'Engranajes helicoidales',
       significado:
-        'acciones para preservar o restaurar componentes y prolongar su funcionalidad.',
+        'tipo de engranaje con dientes inclinados que mejora la eficiencia y suavidad en la transmisión del movimiento.',
     },
     {
-      termino: 'Par motor',
+      termino: 'Fricción',
       significado:
-        'relación entre la potencia y la velocidad del motor, reflejada en la fuerza rotacional.',
+        'resistencia al movimiento entre dos superficies en contacto, clave en los diferenciales LSD con embragues.',
     },
     {
-      termino: 'Piñón',
+      termino: 'Prueba de diagnóstico',
       significado:
-        'rueda dentada que engrana con otra rueda o cadena en el sistema.',
+        'procedimiento para identificar fallas en el diferencial mediante inspecciones y pruebas mecánicas.',
     },
     {
-      termino: 'Relación de transmisión',
+      termino: 'Superficie resbaladiza',
       significado:
-        'relación entre las velocidades de dos engranajes en movimiento.',
+        'terreno con baja adherencia, como lodo o nieve, donde las ruedas pueden perder tracción.',
+    },
+    {
+      termino: 'Torque',
+      significado:
+        'fuerza de giro aplicada a un eje, fundamental en la transmisión de potencia en los vehículos.',
+    },
+    {
+      termino: 'Transmisión de potencia',
+      significado:
+        'proceso mediante el cual el motor transfiere energía a las ruedas a través del diferencial.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Chevrolet (1999). Despiece Caja de cambios – vehículos con motor.',
+        'Aficionados a la mecánica. (2014). <em>Diferencial autoblocante.</em>',
       link: '',
     },
     {
       referencia:
-        'Eaton (2012). <em>Guía de diagnóstico de fallas transmisiones Fuller para servicio pesado TRTS0910S.</em> ',
-      link:
-        'http://www.roadranger.com/ecm/groups/public/@pub/@eaton/@roadranger/documents/content/trts0910s.pdf',
-    },
-    {
-      referencia:
-        'Herrmann & Kraemer (1998). <em>Caja de cambios manual, Sección 308-03, modelo: Fiesta.</em> Ford Motor Company.',
+        'Jones, D. & VanGelder, K. (2018). <em>Automotive electricity and electronics.</em> Burlington: Jones & Bartlett Learning.',
       link: '',
     },
     {
       referencia:
-        'Salazar, W. (2015). <em>Proyecto de grado: Reparación total de la caja de cambios mecánica de un automóvil Volkswagen Parati Station Wagon año: 1999.</em>  ',
-      link:
-        'https://www.dspace.espol.edu.ec/bitstream/123456789/29595/1/TESIS%20LISTA%20PARA%20IMPRIMIR%20Y%20EMPASTAR.pdf',
+        'Jones, J. & Christensen, K. (2017). <em>Traction aid: your guide to lockers, limited slip differential, and spools.</em>',
+      link: '',
     },
     {
       referencia:
-        'US Navy (2018). <em>Construction mechanic advanced NAVEDTRA 14050A, capítulo 8 troubleshooting transmissions, transfer cases, and differentials.</em>',
+        'VanGelder, K. (2018). <em>Fundamentals of automotive technology. Principles and practice.</em> Jones & Bartlett Learning.',
       link: '',
     },
   ],
