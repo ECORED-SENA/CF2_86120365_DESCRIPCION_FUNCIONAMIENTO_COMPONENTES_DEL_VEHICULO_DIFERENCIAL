@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Diferencial de deslizamiento limitado y diagnóstico de fallas',
     Description:
-      'El componente formativo aborda el diferencial de deslizamiento limitado (LSD), explicando su funcionamiento con embragues y engranajes, incluyendo los tipos helicoidales y torsen. Además, presenta un proceso de diagnóstico de fallas, que incluye escuchar al cliente, investigar, realizar pruebas e informar resultados. Se enfatiza en mejorar la tracción y estabilidad vehicular en superficies resbaladizas.',
+      'El componente formativo aborda el diferencial de deslizamiento limitado (LSD), explicando su funcionamiento con embragues y engranajes, incluyendo los tipos helicoidales y <em>torsen</em>. Además, presenta un proceso de diagnóstico de fallas, que incluye escuchar al cliente, investigar, realizar pruebas e informar resultados. Se enfatiza en mejorar la tracción y estabilidad vehicular en superficies resbaladizas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -109,8 +109,7 @@ export default {
       referencia:
         'Mentalidad De Ingeniería. (2022). LIMITADO DESLIZAR DIFERENCIAL. [Archivo de video] Youtube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=qy9yFqed0FQ&ab_channel=MentalidadDeIngenier%C3%ADa',
+      link: 'https://www.youtube.com/watch?v=gy9vFged0FQ',
     },
     {
       tema: 'Diferencial con embragues',
@@ -125,7 +124,7 @@ export default {
         'La Catarina – UDLAP. (). Aplicación de engranes cónicos en el sistema de potencia.',
       tipo: 'Documento',
       link:
-        'https://catarina.udlap.mx/u_dl_a/tales/documentos/lim/ramirez_j_m/capitulo5.pdf',
+        'https://catarina.udlap.mx/u_dl_a/tales/documentos/lim/ramirez_i_m/capitulo5.pdf',
     },
   ],
   glosario: [
@@ -140,7 +139,7 @@ export default {
         'mecanismo que distribuye el torque entre las ruedas motrices para mejorar la tracción en superficies resbaladizas.',
     },
     {
-      termino: 'Diferencial torsen',
+      termino: 'Diferencial <em>torsen</em>',
       significado:
         'sistema que usa engranajes sin fin y helicoidales para transferir torque a la rueda con mayor tracción.',
     },

@@ -10,7 +10,7 @@
 
 
     .bg-full-width.bg-fondo-1
-      .p-4.p-md-5
+      .px-4.px-md-5.pb-4.pb-md-5
 
         p(data-aos="fade-up").mb-4 El diferencial de deslizamiento limitado (LSD) es un mecanismo diseñado para mejorar la tracción de los vehículos en superficies resbaladizas. A diferencia de los diferenciales convencionales, permite distribuir la potencia de manera más eficiente entre las ruedas, evitando que una de ellas patine sin control. Este sistema es fundamental en situaciones donde se requiere estabilidad y adherencia, como en terrenos mojados o irregulares.
 
@@ -19,10 +19,10 @@
             :style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Existen distintos tipos de LSD, entre ellos los que funcionan con embragues y los que operan con engranajes. Los primeros utilizan discos de fricción para limitar el deslizamiento, mientras que los segundos, como los diferenciales helicoidales o torsen, emplean un conjunto de engranajes para regular la distribución de torque. Estas tecnologías han sido ampliamente utilizadas en competencias automovilísticas y en vehículos todoterreno.
+            p.mb-0 Existen distintos tipos de LSD, entre ellos los que funcionan con embragues y los que operan con engranajes. Los primeros utilizan discos de fricción para limitar el deslizamiento, mientras que los segundos, como los diferenciales helicoidales o <em>torsen</em>, emplean un conjunto de engranajes para regular la distribución de torque. Estas tecnologías han sido ampliamente utilizadas en competencias automovilísticas y en vehículos todoterreno.
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-auto
+          .col-lg-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/intro/2.svg", alt="alt", style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
 

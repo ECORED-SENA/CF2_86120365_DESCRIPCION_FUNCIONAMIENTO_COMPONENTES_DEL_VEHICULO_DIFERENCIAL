@@ -12,7 +12,7 @@
 
 
     .bg-full-width.bg-fondo-2
-      .p-4.p-md-5
+      .px-4.px-md-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-3
@@ -30,9 +30,9 @@
                   img(src="@/assets/bullets/ola.svg", alt="alt", style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
 
               .col-lg
-                p(data-aos="fade-up").mb-0 Para solucionar este inconveniente, se desarrolló el diferencial de deslizamiento limitado (Limited Slip Differential - LSD), el cual permite que el diferencial funcione de manera convencional en condiciones normales de manejo y, al mismo tiempo, reduzca o bloquee su acción diferencial cuando el vehículo enfrenta condiciones adversas. Esto se logra al limitar el libre movimiento de la rueda que patina y transferir parte de la potencia a la rueda con mayor tracción.
+                p(data-aos="fade-up").mb-0 Para solucionar este inconveniente, se desarrolló el diferencial de deslizamiento limitado (<em>Limited Slip Differential</em> - LSD), el cual permite que el diferencial funcione de manera convencional en condiciones normales de manejo y, al mismo tiempo, reduzca o bloquee su acción diferencial cuando el vehículo enfrenta condiciones adversas. Esto se logra al limitar el libre movimiento de la rueda que patina y transferir parte de la potencia a la rueda con mayor tracción.
         
-        .row.justify-content-center.align-items-center.mb-lg-5
+        .row.justify-content-center.align-items-center
           .col-lg-6
             .bg-color-8.p-5
               .bg-color-white.p-4
@@ -58,6 +58,7 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/3.png', alt='Diagrama del diferencial de deslizamiento limitado, destacando discos dentados, satélites, planetarios y semiejes.', style="max-width: 820px;", data-aos="zoom-in")
+        figcaption Nota. SENA (2019)
 
       .col-lg-7
         .bg-color-9.p-5
@@ -65,7 +66,7 @@
 
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-6.mb-4.mb-lg-0
         .bg-color-9.p-5
           ul.lista-ul--color
@@ -98,10 +99,10 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2  Diferencial con engranajes
 
-    p(data-aos="fade-up").mb-5 El desarrollo de este tipo de diferencial responde a la necesidad de mejorar la estabilidad y tracción del vehículo. Su uso permitió ganar numerosas competencias de rally en los años 80. Entre los modelos más utilizados se encuentran el diferencial de deslizamiento limitado con engranajes helicoidales y el diferencial torsen.
+    p(data-aos="fade-up").mb-4 El desarrollo de este tipo de diferencial responde a la necesidad de mejorar la estabilidad y tracción del vehículo. Su uso permitió ganar numerosas competencias de <em>rally</em> en los años 80. Entre los modelos más utilizados se encuentran el diferencial de deslizamiento limitado con engranajes helicoidales y el diferencial <em>torsen</em>.
 
     .bg-full-width.bg-fondo-3
-      .p-4.p-md-5
+      .px-4.px-md-5
 
         .titulo-tres(data-aos="flip-up").mb-5
           h4 Diferencial LSD con engranaje helicoidales
@@ -117,17 +118,17 @@
             figure
               img(src='@/assets/curso/tema1/5.png', alt='Despiece de un diferencial LSD con engranajes helicoidales, mostrando su estructura interna y componentes principales.', style="max-width: 610px;", data-aos="zoom-in")
 
-            figcaption.mt-3
+            figcaption
               p.mb-0 Nota. Jones & Christensen (2017)
 
-    .titulo-tres(data-aos="flip-up").mb-5
+    .titulo-tres(data-aos="flip-up").mb-4
       h4 Diferencial #[em Torsen]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         .bg-color-8.p-5(data-aos="fade-right")
           .bg-color-white.p-4(data-aos="fade-left")
-            p.mb-0 El diferencial torsen opera como un diferencial convencional en condiciones normales de manejo, pero actúa para mejorar la tracción cuando el vehículo se encuentra en una superficie resbaladiza o de baja adherencia. Generalmente, este sistema cuenta con tres pares de piñones helicoidales cuyos dientes engranan con los piñones sin fin de los planetarios. Cada piñón satélite dispone de un sector dentado en su parte externa para engranarse con su par en el lado opuesto, el cual, a su vez, está acoplado con el otro piñón planetario.
+            p.mb-0 El diferencial <em>torsen</em> opera como un diferencial convencional en condiciones normales de manejo, pero actúa para mejorar la tracción cuando el vehículo se encuentra en una superficie resbaladiza o de baja adherencia. Generalmente, este sistema cuenta con tres pares de piñones helicoidales cuyos dientes engranan con los piñones sin fin de los planetarios. Cada piñón satélite dispone de un sector dentado en su parte externa para engranarse con su par en el lado opuesto, el cual, a su vez, está acoplado con el otro piñón planetario.
       .col-lg-6.mt-4.mt-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 5. 
@@ -144,6 +145,7 @@
           span Funcionamiento de los engranajes
         figure
           img(src="@/assets/curso/tema1/7.png", alt="Esquema del funcionamiento de los engranajes helicoidales y planetarios en un diferencial.", style="max-width: 505px;").mx-auto.mb-4.mb-lg-0
+        figcaption Nota. SENA (2019)
       .col-lg-7
         figure.mb-3.d-none.d-lg-block
           img(src="@/assets/bullets/ola.svg", alt="alt", style="max-width: 90px;")
@@ -160,11 +162,11 @@
               img(src="@/assets/bullets/ola.svg", alt="alt", style="max-width: 90px; margin-left: auto;")
 
             .bg-color-10.px-5.py-5(data-aos="fade-right")
-              p.mb-0 El principio de funcionamiento de este mecanismo se basa en la interacción entre los engranajes sin fin (planetarios) y los helicoidales (satélites).
+              p.mb-0 Cuando el engranaje sin fin (planetario) mueve el engranaje helicoidal (satélite), el diferencial <em>torsen</em> actúa de manera similar a un diferencial convencional.
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3.mt-4.mt-lg-0
               h5 Figura 7. 
-              span Funcionamiento de los engranajes
+              span El engranaje sin fin empuja el helicoidal
             figure
               img(src="@/assets/curso/tema1/8.png", alt="Figura del mecanismo de transmisión entre un engranaje sin fin y un engranaje helicoidal, mostrando cómo el movimiento del tornillo sin fin impulsa la rotación del engranaje.", style="max-width: 505px;").mx-auto.mb-4.mb-lg-0
 

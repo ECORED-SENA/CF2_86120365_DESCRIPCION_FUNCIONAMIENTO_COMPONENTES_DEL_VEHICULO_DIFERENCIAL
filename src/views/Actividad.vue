@@ -113,7 +113,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Tipo torsen.',
+              texto: 'Tipo <em>torsen</em>.',
               esCorrecta: false,
             },
           ],
@@ -317,7 +317,7 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué sucede cuando un engranaje helicoidal intenta mover un engranaje sin fin en un diferencial torsen?',
+            '¿Qué sucede cuando un engranaje helicoidal intenta mover un engranaje sin fin en un diferencial <em>torsen</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -370,7 +370,7 @@ export default {
         {
           id: 12,
           texto:
-            'Un diferencial LSD torsen no puede transferir torque entre las ruedas.',
+            'Un diferencial LSD <em>torsen</em> no puede transferir torque entre las ruedas.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
