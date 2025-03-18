@@ -34,16 +34,20 @@
               p.mb-0 ¿Qué otros sistemas han operado inapropiadamente?
 
         .row.justify-content-center.align-items-end.mb-5
-          .col-lg-4
-            .bg-color-13.p-4.pb-lg-5
+          .col-lg-1.d-none.d-lg-block.d-xl-none
+            
+          .col-xxl-4.col-xl-4.col-lg-8.mb-lg-4.mb-xl-0
+            .bg-color-13.p-4.pb-xxl-5
               p.mb-0 También es útil realizar un pequeño recorrido en el cual el cliente conduzca, para obtener mayor información en las condiciones reales en las que se presenta el problema o sus síntomas. Así, el cliente manifestará las irregularidades que ha detectado en el vehículo.
 
-          .col-lg-3
+          .col-lg-1.d-none.d-lg-block.d-xl-none
+
+          .col-xxl-3.col-xl-4.col-lg-4
             figure.mt-4.mt-lg-0
               img(src="@/assets/curso/tema2/2b.png", alt="alt", style="max-width: 295px;").mx-auto.mb-4.mb-lg-0
 
-          .col-lg-5
-            figure.d-none.d-lg-block
+          .col-xxl-5.col-xl-4.col-lg-4
+            figure.d-none.d-xl-block
               img(src="@/assets/curso/tema2/3.svg", alt="alt", style="max-width: 80px;").mr-auto.mb-2
             .bg-color-13.px-4.py-2
               p.mb-0 Luego, efectuar una inspección visual en busca de causas evidentes: revisar fugas, niveles de fluidos y condiciones anormales en los componentes y sistemas relacionados con las preocupaciones del cliente.
