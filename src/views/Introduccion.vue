@@ -19,7 +19,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Existen distintos tipos de LSD, entre ellos los que funcionan con embragues y los que operan con engranajes. Los primeros utilizan discos de fricción para limitar el deslizamiento, mientras que los segundos, como los diferenciales helicoidales o <em>torsen</em>, emplean un conjunto de engranajes para regular la distribución de torque. Estas tecnologías han sido ampliamente utilizadas en competencias automovilísticas y en vehículos todoterreno.
+            p.mb-0 Existen distintos tipos de LSD, entre ellos los que funcionan con embragues y los que operan con engranajes. Los primeros utilizan discos de fricción para limitar el deslizamiento, mientras que los segundos, como los diferenciales helicoidales o <em>Torsen</em>, emplean un conjunto de engranajes para regular la distribución de torque. Estas tecnologías han sido ampliamente utilizadas en competencias automovilísticas y en vehículos todoterreno.
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-auto.d-none.d-lg-block

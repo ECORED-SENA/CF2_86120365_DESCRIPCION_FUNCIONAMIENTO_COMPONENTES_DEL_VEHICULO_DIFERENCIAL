@@ -21,6 +21,8 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> Evaluar el conocimiento sobre el funcionamiento del diferencial de deslizamiento limitado (LSD), sus tipos, características y el proceso de diagnóstico de fallas.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -113,7 +115,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Tipo <em>torsen</em>.',
+              texto: 'Tipo <em>Torsen</em>.',
               esCorrecta: false,
             },
           ],
@@ -154,7 +156,7 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué caracteriza al diferencial LSD tipo torsen?',
+          texto: '¿Qué caracteriza al diferencial LSD tipo Torsen?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -317,7 +319,7 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué sucede cuando un engranaje helicoidal intenta mover un engranaje sin fin en un diferencial <em>torsen</em>?',
+            '¿Qué sucede cuando un engranaje helicoidal intenta mover un engranaje sin fin en un diferencial <em>Torsen</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -370,7 +372,7 @@ export default {
         {
           id: 12,
           texto:
-            'Un diferencial LSD <em>torsen</em> no puede transferir torque entre las ruedas.',
+            'Un diferencial LSD <em>Torsen</em> no puede transferir torque entre las ruedas.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

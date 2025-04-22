@@ -99,7 +99,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2  Diferencial con engranajes
 
-    p(data-aos="fade-up").mb-4 El desarrollo de este tipo de diferencial responde a la necesidad de mejorar la estabilidad y tracción del vehículo. Su uso permitió ganar numerosas competencias de <em>rally</em> en los años 80. Entre los modelos más utilizados se encuentran el diferencial de deslizamiento limitado con engranajes helicoidales y el diferencial <em>torsen</em>.
+    p(data-aos="fade-up").mb-4 El desarrollo de este tipo de diferencial responde a la necesidad de mejorar la estabilidad y tracción del vehículo. Su uso permitió ganar numerosas competencias de <em>rally</em> en los años 80. Entre los modelos más utilizados se encuentran el diferencial de deslizamiento limitado con engranajes helicoidales y el diferencial <em>Torsen</em>.
 
     .bg-full-width.bg-fondo-3
       .px-4.px-md-5
@@ -128,13 +128,13 @@
       .col-lg-6
         .bg-color-8.p-5(data-aos="fade-right")
           .bg-color-white.p-4(data-aos="fade-left")
-            p.mb-0 El diferencial <em>torsen</em> opera como un diferencial convencional en condiciones normales de manejo, pero actúa para mejorar la tracción cuando el vehículo se encuentra en una superficie resbaladiza o de baja adherencia. Generalmente, este sistema cuenta con tres pares de piñones helicoidales cuyos dientes engranan con los piñones sin fin de los planetarios. Cada piñón satélite dispone de un sector dentado en su parte externa para engranarse con su par en el lado opuesto, el cual, a su vez, está acoplado con el otro piñón planetario.
+            p.mb-0 El diferencial <em>Torsen</em> opera como un diferencial convencional en condiciones normales de manejo, pero actúa para mejorar la tracción cuando el vehículo se encuentra en una superficie resbaladiza o de baja adherencia. Generalmente, este sistema cuenta con tres pares de piñones helicoidales cuyos dientes engranan con los piñones sin fin de los planetarios. Cada piñón satélite dispone de un sector dentado en su parte externa para engranarse con su par en el lado opuesto, el cual, a su vez, está acoplado con el otro piñón planetario.
       .col-lg-6.mt-4.mt-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 5. 
           span Partes del diferencial #[em Torsen] 
         figure
-          img(src="@/assets/curso/tema1/6.png", alt="alt", style="max-width: 100%;").mx-auto.mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/6.png", alt="iagrama del diferencial Torsen, destacando engranajes rectos, rodillos helicoidales y semiejes de transmisión.", style="max-width: 100%;").mx-auto.mb-4.mb-lg-0
         figcaption.mt-3
           p.mb-0 Nota.  Aficionados a la mecánica (2014)
 
@@ -162,7 +162,7 @@
               img(src="@/assets/bullets/ola.svg", alt="alt", style="max-width: 90px; margin-left: auto;")
 
             .bg-color-10.px-5.py-5(data-aos="fade-right")
-              p.mb-0 Cuando el engranaje sin fin (planetario) mueve el engranaje helicoidal (satélite), el diferencial <em>torsen</em> actúa de manera similar a un diferencial convencional.
+              p.mb-0 Cuando el engranaje sin fin (planetario) mueve el engranaje helicoidal (satélite), el diferencial <em>Torsen</em> actúa de manera similar a un diferencial convencional.
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3.mt-4.mt-lg-0
               h5 Figura 7. 

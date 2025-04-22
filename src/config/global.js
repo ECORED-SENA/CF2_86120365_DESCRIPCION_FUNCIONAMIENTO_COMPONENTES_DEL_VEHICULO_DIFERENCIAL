@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Diferencial de deslizamiento limitado y diagnóstico de fallas',
     Description:
-      'El componente formativo aborda el diferencial de deslizamiento limitado (LSD), explicando su funcionamiento con embragues y engranajes, incluyendo los tipos helicoidales y <em>torsen</em>. Además, presenta un proceso de diagnóstico de fallas, que incluye escuchar al cliente, investigar, realizar pruebas e informar resultados. Se enfatiza en mejorar la tracción y estabilidad vehicular en superficies resbaladizas.',
+      'El componente formativo aborda el diferencial de deslizamiento limitado (LSD), explicando su funcionamiento con embragues y engranajes, incluyendo los tipos helicoidales y <em>Torsen</em>. Además, presenta un proceso de diagnóstico de fallas, que incluye escuchar al cliente, investigar, realizar pruebas e informar resultados. Se enfatiza en mejorar la tracción y estabilidad vehicular en superficies resbaladizas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -89,7 +89,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/86120365_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -139,7 +139,7 @@ export default {
         'mecanismo que distribuye el torque entre las ruedas motrices para mejorar la tracción en superficies resbaladizas.',
     },
     {
-      termino: 'Diferencial <em>torsen</em>',
+      termino: 'Diferencial <em>Torsen</em>',
       significado:
         'sistema que usa engranajes sin fin y helicoidales para transferir torque a la rueda con mayor tracción.',
     },

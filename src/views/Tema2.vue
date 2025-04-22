@@ -23,7 +23,7 @@
               img(src="@/assets/curso/tema2/1.png", alt="alt", style="max-width: 100%;").mx-auto.mb-4.mb-lg-0
           .col-lg-6
             .bg-color-11.px-3.py-2.mb-3
-              p.mb-0 ¿Qué circunstancias ocurre o no ocurre el problema?
+              p.mb-0 ¿En qué circunstancias ocurre o no ocurre el problema?
             .bg-color-12.px-3.py-2.mb-3
               p.mb-0 ¿Qué sonidos inusuales se escuchan?
             .bg-color-11.px-3.py-2.mb-3
