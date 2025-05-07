@@ -9,11 +9,12 @@
 
     .bg-full-width.bg-fondo-6
       .px-4.px-md-5
-        p(data-aos="fade-down").mb-5 Existen estrategias para hacer del diagnóstico un proceso más preciso. En la práctica, un proceso lógico y sistemático, por lo general brinda muy buenos resultados.
+        p(data-aos="fade-down") Existen estrategias para hacer del diagnóstico un proceso más preciso. En la práctica, un proceso lógico y sistemático, por lo general brinda muy buenos resultados.
 
-
-        .titulo-tres.mb-5
-          h4 Escuchar al cliente
+        Separador
+        #t_2_1
+        .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+          h2 2.1 Escuchar al cliente
 
         p(data-aos="fade-right").mb-4 Escuchar atentamente al cliente sobre los inconvenientes que presenta el vehículo. Es recomendable preguntarle:
 

@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Diferencial de deslizamiento limitado y diagnóstico de fallas',
     Description:
-      'El componente formativo aborda el diferencial de deslizamiento limitado (LSD), explicando su funcionamiento con embragues y engranajes, incluyendo los tipos helicoidales y <em>Torsen</em>. Además, presenta un proceso de diagnóstico de fallas, que incluye escuchar al cliente, investigar, realizar pruebas e informar resultados. Se enfatiza en mejorar la tracción y estabilidad vehicular en superficies resbaladizas.',
+      'El diferencial es un componente clave en la transmisión del vehículo, el componente formativo aborda el diferencial de deslizamiento limitado (LSD), explicando su funcionamiento con embragues y engranajes, incluyendo los tipos helicoidales y <em>Torsen</em>. Además, presenta un proceso de diagnóstico de fallas, que incluye escuchar al cliente, investigar, realizar pruebas e informar resultados. Se enfatiza en mejorar la tracción y estabilidad vehicular en superficies resbaladizas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -56,6 +56,13 @@ export default {
         numero: '2',
         titulo: 'Diagnóstico inicial de fallas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Escuchar al cliente',
+            hash: 't_2_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -121,7 +128,7 @@ export default {
     {
       tema: 'Diferencial con engranajes',
       referencia:
-        'La Catarina – UDLAP. (). Aplicación de engranes cónicos en el sistema de potencia.',
+        'La Catarina - UDLAP. Aplicación de engranes cónicos en el sistema de potencia.',
       tipo: 'Documento',
       link:
         'https://catarina.udlap.mx/u_dl_a/tales/documentos/lim/ramirez_i_m/capitulo5.pdf',
